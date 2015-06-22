@@ -66,7 +66,13 @@ body{
 	}
 	.nav {
 		box-shadow: 0px 2px 2px rgba(44, 44, 44, 0.63);
-		background: #3ED799;
+		background: #e17559; /* Old browsers */
+		background: -moz-linear-gradient(top,  #e17559 1%, #db6548 47%, #d75a3e 67%, #d6573b 99%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e17559), color-stop(47%,#db6548), color-stop(67%,#d75a3e), color-stop(99%,#d6573b)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #e17559 1%,#db6548 47%,#d75a3e 67%,#d6573b 99%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #e17559 1%,#db6548 47%,#d75a3e 67%,#d6573b 99%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #e17559 1%,#db6548 47%,#d75a3e 67%,#d6573b 99%); /* IE10+ */
+		background: linear-gradient(to bottom,  #e17559 1%,#db6548 47%,#d75a3e 67%,#d6573b 99%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e17559', endColorstr='#d6573b',GradientType=0 ); /* IE6-9 */
 		border-radius: 8px 8px 0px 0px;
 		-webkit-border-radius:8px 8px 0px 0px;
@@ -281,7 +287,13 @@ body{
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
-	background: green;
+	background: #d96a4a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d96a4a 0%, #d25435 47%, #cb482b 66%, #c84225 98%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d96a4a), color-stop(47%,#d25435), color-stop(66%,#cb482b), color-stop(98%,#c84225)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d96a4a 0%,#d25435 47%,#cb482b 66%,#c84225 98%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d96a4a 0%,#d25435 47%,#cb482b 66%,#c84225 98%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d96a4a 0%,#d25435 47%,#cb482b 66%,#c84225 98%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d96a4a 0%,#d25435 47%,#cb482b 66%,#c84225 98%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96a4a', endColorstr='#c84225',GradientType=0 ); /* IE6-9 */
     border-radius:0px 9px 0px 0px;
     cursor: pointer;
